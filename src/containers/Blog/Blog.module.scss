@@ -1,0 +1,35 @@
+header {
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+            li {
+                display: inline-block;
+                margin: 10px;
+                a {
+                    padding: 10px;
+                    border: 1px solid #fa923f;
+                    text-decoration: none;
+                    color: #fa923f;
+                    transition: .3s;
+                    display: block;
+                    &:hover {
+                        color: white;
+                        background-color: #fa923f;
+                    }
+                    &:active {
+                        color: white;
+                        background-color: #ba6d2f;
+                    }
+                }
+                .active {
+                    color: white;
+                    background-color: #fa923f;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    label{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        p{
+            line-height: 24px;
+            margin: 0;
+        }
+        select{
+            width: 50px;
+            height: 20px;
+            margin: 0 0 0 10px;
+            text-align: center;
+        }
+    }
+    h4{
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+.error {
+    color: red;
+}
+
+.add {
+    color: #747474;
+}
